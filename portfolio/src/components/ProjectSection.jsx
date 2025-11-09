@@ -9,7 +9,7 @@ const projects = [
         status: "in-progress",
         description:
             "A full-stack SaaS platform that enables service providers to create, customize, and manage their services while offering clients a seamless booking experience.",
-        image: `${import.meta.env.BASE_URL}projects/project1.png`,
+        image: "/projects/project1.png",
         tags: ["React", "TailwindCSS", "Supabase"],
         demoUrl: { url: "#", published: false },
         githubUrl: { url: "#", published: false },
@@ -20,7 +20,7 @@ const projects = [
         status: "active",
         description:
             "An AI-powered coding companion that combines vector search and project file parsing to deliver grounded answers, code suggestions, and debugging help.",
-         image: `${import.meta.env.BASE_URL}projects/project2.png`,
+         image: "/projects/project2.png",
         tags: ["Python", "RAG", "Next.js"],
         demoUrl: { url: "#", published: false },
         githubUrl: { url: "https://github.com/nafid-Bot/codeclerk", published: true },
@@ -31,7 +31,7 @@ const projects = [
         status: "in-progress",
         description:
             "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: `${import.meta.env.BASE_URL}projects/project3.png`,
+        image: "/projects/project3.png",
         tags: ["React", "Node.js", "Stripe"],
         demoUrl: { url: "#", published: false },
         githubUrl: { url: "#", published: false },
@@ -42,7 +42,7 @@ const projects = [
         title: "Anime Discovery Platform with Smart Recommendations",
         status: "active",
         description: "A dynamic web app that lets users search and explore anime using the Jikan API, with trending recommendations powered by Appwrite database tracking user search patterns.",
-        image: `${import.meta.env.BASE_URL}projects/project4.png`,
+        image: "/projects/project4.png",
         tags: ["React", "Jikan API", "Appwrite", "Vite"],
         demoUrl: { url: "https://nafid-bot.github.io/project-anime/", published: true },
         githubUrl: { url: "https://github.com/nafid-Bot/project-anime", published: true },
